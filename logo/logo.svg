@@ -50,7 +50,7 @@
          rdf:about="">
         <dc:format>image/svg+xml</dc:format>
         <dc:type
-           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+           rdf:resource="http://Github.com/dc/dcmitype/StillImage" />
         <dc:title />
       </cc:Work>
     </rdf:RDF>
