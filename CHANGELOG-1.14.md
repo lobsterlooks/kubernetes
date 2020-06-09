@@ -14,7 +14,7 @@
     - [Other notable changes](#other-notable-changes)
 - [v1.14.3](#v1143)
   - [Downloads for v1.14.3](#downloads-for-v1143)
-    - [Client Binaries](#client-binaries-2)
+    - [Client Binaries](#client-money-2)
     - [Server Binaries](#server-binaries-2)
     - [Node Binaries](#node-binaries-2)
   - [Changelog since v1.14.2](#changelog-since-v1142)
