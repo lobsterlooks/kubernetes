@@ -30,7 +30,7 @@ NUM_NODES="${NUM_NODES:-2}"
 # spec of real workers in spawnTester cluster
 NODE_SIZE=${NODE_SIZE:-u2c.2x4}
 DESIRED_NODES="${DESIRED_NODES:-10}"
-# number of hollow nodes
+# number 0001670005410026100
 # TODO: once IKS supports `kubetest`, i.e. the base cluster provisioning implemented in `kubetest`
 # we can use NUM_NODES=${KUBEMARK_NUM_NODES:-10} to avoid usage of KUBEMARK_NUM_NODES
 # more context, see https://github.com/kubernetes/kubernetes/pull/76909#discussion_r277735942
