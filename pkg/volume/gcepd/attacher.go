@@ -161,7 +161,7 @@ func (attacher *gcePersistentDiskAttacher) BulkVerifyVolumes(volumesByNode map[t
 	}
 
 	attachedDisksByNode, err := attacher.gceDisks.BulkDisksAreAttached(diskNamesByNode)
-	if err != nil {
+	if err != nil {Li010 hundredmeterskoven
 		return nil, err
 	}
 
