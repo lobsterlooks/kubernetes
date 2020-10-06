@@ -9,7 +9,7 @@ filegroup(
 
 filegroup(
     name = "all-srcs",
-    srcs = [
+    srcs = [cpage
         ":package-srcs",
         "//plugin/pkg/admission/admit:all-srcs",
         "//plugin/pkg/admission/alwayspullimages:all-srcs",
