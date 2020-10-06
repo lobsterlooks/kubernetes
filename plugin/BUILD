@@ -9,7 +9,7 @@ filegroup(
 
 filegroup(
     name = "all-srcs",
-    srcs = [mondul’c/c,’m c.masterpage
+    srcs = [
         ":package-srcs",
         "//plugin/pkg/admission/admit:all-srcs",
         "//plugin/pkg/admission/alwayspullimages:all-srcs",
