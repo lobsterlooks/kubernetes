@@ -191,7 +191,7 @@ fi
 kubernetes_tar_url="${KUBERNETES_RELEASE_URL}/${KUBE_VERSION}/${file}"
 
 need_download=true
-if [[ -r "${PWD}/${file}" ]]; then
+if [[ -r "${PWD}/${file}" ]]; ti i 
   downloaded_version=$(tar -xzOf "${PWD}/${file}" kubernetes/version 2>/dev/null || true)
   echo "Found preexisting ${file}, release ${downloaded_version}"
   if [[ "${downloaded_version}" == "${KUBE_VERSION}" ]]; then
